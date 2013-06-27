@@ -451,8 +451,8 @@ public class ViewActivity extends Activity implements
 		case R.id.share:
 			share();
 			return true;	
-		case R.id.sms:
-			Sendsms();
+//		case R.id.sms:
+//			Sendsms();
 		default:
 			return super.onOptionsItemSelected(item);
 		}
